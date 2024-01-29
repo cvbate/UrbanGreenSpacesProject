@@ -2,13 +2,13 @@ SELECT osm_id, name, ST_area(way) as area
 FROM planet_osm_polygon
 WHERE leisure = 'park'
 ORDER BY area DESC;
-DELETE FROM planet_osm_polygon
+DELETE FROM planet_osm_polygon /*cleaning to remove all rows where the name is empty/NULL */
 WHERE name IS NULL
 
 CREATE TABLE green_spaces (
 id SERIAL PRIMARY KEY,
 name VARCHAR(255),
-location GEOMETRY(Point, 3857), /*ERROR: Geometry SRID (3857) does not match column SRID (4326) SQL state: 22023 */
+location GEOMETRY(Point, 3857), /*ERROR: Geometry SRID (3857) does not match column SRID (4326) SQL state: 22023 - so I changed 4326 to the Geometry SRID to match what the error said. */
 area_sq_m NUMERIC
 );
 
@@ -35,7 +35,7 @@ Hialeah Park Race Track: 1000239.7 sq m */
 SELECT SUM(ST_Area(way)) as total_green_space_area
 FROM planet_osm_polygon
 WHERE leisure = 'park';
-/* The total area of green space in Miami is = 17255910.3 */
+/* The total area of green space in Miami is = 17255910.3 sq m */
 
 
 /* https://download.bbbike.org/osm/bbbike/Miami/ */
