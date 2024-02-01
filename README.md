@@ -1,5 +1,5 @@
 # Urban Green Spaces Project
-### Spatial Databases 376 Lab 01 - By Clio Bate 01/29/2024
+### Spatial Databases 376 Lab 01  By Clio Bate 01/29/2024
 This project was created as part of Spatial Databases at Clark University S2024. The objective of this assignent is to set up Git/Git Bash on the local machine, and familiarize ourselves with SQL and the software that will be used in this class(PgAdmin 4, QGIS). This will be done through analyzing green spaces in a city of choice. I identified the five largest parks in Miami, calculated the total area of parks within the city, and created a map to visualize my fidnings(optional).
 
 #### Methods
@@ -14,17 +14,23 @@ This project was created as part of Spatial Databases at Clark University S2024.
 
 
 #### Findings
-total area of green space in Miami
 The total area of green space in Miami is = 17255910.3 sq m 
 
-Five largest parks
-he query lists the top 5 largest green spaces by name and area, which are as follows:
-Crandon Park: 4813915.0 sq m,
-Bill Baggs Cape Florida State Park: 2125852.9 sq m,
-Virginia Key Beach North Point Park: 1683502.5 sq m,
-Matheson Hammock Park: 1037290.2 sq m
-Hialeah Park Race Track: 1000239.7 sq m 
+The top 5 largest green spaces by name and area, which are as follows:
+1. Crandon Park: 4813915.0 sq m
+2. Bill Baggs Cape Florida State Park: 2125852.9 sq m
+3. Virginia Key Beach North Point Park: 1683502.5 sq m
+4. Matheson Hammock Park: 1037290.2 sq m
+5. Hialeah Park Race Track: 1000239.7 sq m 
 
+
+#### Visualizations
+Map created in QGIS
+
+
+
+
+---------------------------------------------
 
 including your objectives,
 methods, findings, and visualizations.
