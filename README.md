@@ -6,10 +6,11 @@ This project was created as part of Spatial Databases at Clark University S2024.
 1. Set up Git Bash and create a repository and initiailze it on my local machine- I had already downlowaded and used Git Bash, so I only had to create aned add the reposity, UrbanGreenSpacesProject
 2. Chose a city ownload the data in pbf format. [Link to data]"https://download.bbbike.org/osm/bbbike/Miami/"
 3. Ceate the a database in PgAdmin osm2pgsql -d urban_green_spaces -U postgres -W
- < "C:\Users\cvale\Clark_Assignments\Databases_S24\UrbanGreenSpacesProject\Miami.osm.pbf" >
+ < C:\Users\cvale\Clark_Assignments\Databases_S24\UrbanGreenSpacesProject\Miami.osm.pbf >
 4. In pgAdmin, preform anaysis ....
 5. Open QGIS and connect to Urban Green Spaces Project
-6. 
+6. Make maps
+7. Push everything to GitHub
 
 
 #### Findings
@@ -29,4 +30,10 @@ including your objectives,
 methods, findings, and visualizations.
 Analysis Report: Write a report detailing your methodology, analyses, and findings. Include
 screenshots from QGIS of your visualizations.
+
+
+para hacer antes de que se la suba
+1. actualizar el mapa para incluyir el resumen y los descubrimientos
+2. terminar con el README (metólogo, añadir las fotitos del mapa, chequear el formato)
+3. dejar comentarios en el código
 
