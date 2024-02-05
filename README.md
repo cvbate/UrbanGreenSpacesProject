@@ -2,6 +2,13 @@
 ### Spatial Databases 376 Lab 01  By Clio Bate 01/29/2024
 This project was created as part of the class, Spatial Databases at Clark University Spring, 2024. The objective of this assignent is to set up Git/Git Bash on our local machine, and familiarize ourselves with SQL and the software that will be used in this class(PgAdmin 4, QGIS). This will be done through analyzing green spaces in a city of choice. I identified the five largest parks in Miami, calculated the total area of parks within the city, and created a map to visualize my fidnings.
 
+What is included in this repository:
+1. README.md file (this file you are reading now)
+2. Miami_parks_map.png (visualization of Miami parks)
+3. analysis.sql (SQL code for anaysis)
+4. miami_projectfile (QGIS project file)
+5. .gitignore
+
 #### Methods
 1. Set up Git Bash and create a repository and initiailze it on my local machine- I had already downlowaded and used Git Bash, so I only had to create aned add the reposity, UrbanGreenSpacesProject
 2. Chose a city and download the data in pbf format. [Link to data](https://download.bbbike.org/osm/bbbike/Miami/)— I chose Miami, FL.
