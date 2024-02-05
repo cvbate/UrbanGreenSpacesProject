@@ -4,8 +4,8 @@ This project was created as part of the class, Spatial Databases at Clark Univer
 
 #### Methods
 1. Set up Git Bash and create a repository and initiailze it on my local machine- I had already downlowaded and used Git Bash, so I only had to create aned add the reposity, UrbanGreenSpacesProject
-2. Chose a city and download the data in pbf format. [Link to data](https://download.bbbike.org/osm/bbbike/Miami/) I chose Miami, FL.
-3. Ceate the a database in PgAdmin using the following code
+2. Chose a city and download the data in pbf format. [Link to data](https://download.bbbike.org/osm/bbbike/Miami/)— I chose Miami, FL.
+3. Ceate the a database in PgAdmin using the following code  
 `osm2pgsql -d urban_green_spaces -U postgres -W C:\Users\cvale\Clark_Assignments\Databases_S24\UrbanGreenSpacesProject\Miami.osm.pbf`
 4. Using SQL query, select all the parks within the database and sort by decending
 5. Clean data by removing any null or empty values 
