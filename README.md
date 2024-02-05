@@ -33,4 +33,4 @@ In my analysis of Miami green spaces I found:
 
 #### Visualizations
 Map created in QGIS
-![map](link)
+![map](Miami_parks_map.png)
