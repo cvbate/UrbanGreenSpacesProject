@@ -5,6 +5,7 @@ ORDER BY area DESC;
 DELETE FROM planet_osm_polygon /*cleaning to remove all rows where the name is empty/NULL */
 WHERE name IS NULL
 
+/* create a new table  */
 CREATE TABLE green_spaces (
 id SERIAL PRIMARY KEY,
 name VARCHAR(255),
@@ -12,6 +13,7 @@ location GEOMETRY(Point, 3857), /*ERROR: Geometry SRID (3857) does not match col
 area_sq_m NUMERIC
 );
 
+/* populate green_spaces table with park's name, location, and area square m */
 INSERT INTO green_spaces (name, location, area_sq_m)
 SELECT name, ST_Centroid(way), ST_Area(way)
 FROM planet_osm_polygon
